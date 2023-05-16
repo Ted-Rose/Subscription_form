@@ -1,23 +1,22 @@
 {
-  "name": "sample",
+  "name": "fe",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "jest-junit": "12.2.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "pretest": "yarn install",
-    "prestart": "yarn install",
-    "start": "SET PORT=8000 react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "./node_modules/.bin/react-scripts test --watchAll=false --verbose --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,6 +38,6 @@
     ]
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "sass": "^1.53.0"
   }
 }
